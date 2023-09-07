@@ -24,6 +24,11 @@ span{
   height: 250px;
 }
 
+.validator{
+  width: 150px;
+  height: 50px;
+}
+
 /* unvisited link */
 a:link {
   color: #FF0000;
