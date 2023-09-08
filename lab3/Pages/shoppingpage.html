@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping page</title>
+  <link href="../CSS/shoppingpage.css"  type="text/css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="headeritems">
+      <img class="logo" src="../Images/logo.jpeg" alt="logo">
+      <p>Welcome, Janet</p>
+      <button id="button1">Logout</button>
+    </div>
+    </header>
+    <div class="table1">
+      <h3>Product List</h3>
+      <table border="1">
+        <tr>
+          <td>Name</td>
+          <td>Price</td>
+          <td>Stock</td>
+          <td>Actions</td>
+        </tr>
+        <tr>
+          <td>Nodejs</td>
+          <td>9.99</td>
+          <td>8</td>
+          <td><img class="icon" src="../Images/shoppingcarticon2.png" alt="icon"></td>
+        </tr>
+        <tr>
+          <td>React</td>
+          <td>19.99</td>
+          <td>5</td>
+          <td><img class="icon" src="../Images/shoppingcarticon2.png" alt="icon"></td>
+        </tr>
+        <tr>
+          <td>Angular</td>
+          <td>29.99</td>
+          <td>13</td>
+          <td><img class="icon" src="../Images/shoppingcarticon2.png" alt="icon"></td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="table2">
+      <h3>Your ShoppingCart</h3>
+      <table border="1">
+        <tr>
+          <td>Name</td>
+          <td>Price</td>
+          <td>Total</td>
+          <td>Quantity</td>
+        </tr>
+        <tr>
+          <td>Nodejs</td>
+          <td>9.99</td>
+          <td>9.99</td>
+          <td class="quantity-row">
+              <span class="quantity-button">-</span>
+              <input type="text" class="quantity-input" id="quantity" value="1">
+              <span class="quantity-button">+</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Angular</td>
+          <td>29.99</td>
+          <td>290.99</td>
+          <td class="quantity-row">
+            <span class="quantity-button">-</span>
+            <input type="text" class="quantity-input" id="quantity" value="10">
+            <span class="quantity-button">+</span>
+        </td>
+        </tr>
+        <tr>
+          <td><span class="total">Total: 300.98</span></td>
+        </tr>
+      </table>
+      <button id="button2">Place Order</button>
+    </div>
+    
+  </header>
+</body>
+</html>

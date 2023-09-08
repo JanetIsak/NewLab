@@ -1,0 +1,64 @@
+.logo{
+  width: 100px;
+  height: 50px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: larger;
+}
+
+p{
+  margin: auto;
+}
+
+body{
+  color: darkslategrey;
+  background-color: bisque;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.headeritems{
+  margin: 25px;
+  display: flex;
+}
+
+.icon{
+  width: 75px;
+  height: 30px;
+}
+
+.quantity-input{
+  width: 20px;
+  height: 10px;
+}
+
+.table1{
+  margin: 25px;
+  border-color: blue ;
+  border-radius: 12px;
+}
+
+.table2{
+  margin: 25px;
+  border-color: blue ;
+  border-radius: 12px;
+}
+
+#button2{
+  margin-top: 15px;
+  margin-left: 250px;
+  background-color: darksalmon;
+}
+
+
+#button1{
+  width: 70px;
+  height: 35px;
+  background-color: darksalmon;
+  margin-top: 10px;
+  margin-left: auto;
+}
