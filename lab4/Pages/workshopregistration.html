@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop Registration Document</title>
+    <link
+      rel="stylesheet"
+      href="../CSS/workshopregistration.css"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="globaldiv">
+      <header>
+        <div class="header">
+          <h3>Workshop Registration</h3>
+          <select id="p1">
+            <option value="moreactions">More Actions</option>
+            <option value="contactus">Contact Us</option>
+          </select>
+        </div>
+      </header>
+      <div class="formdiv fix">
+        <div class="col-form fix">
+          <div class="leftsideform">
+            <div class="p-20">
+              <p id="p2">Register now while seats are available!</p>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="username">First Name:</label>
+                </div>
+                <div class="field">
+                  <input id="username" type="text" size="30" required />
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="lastname">Last Name:</label>
+                </div>
+                <div class="field">
+                  <input id="lastname" type="text" size="30" required />
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="company">Company/Institution:</label>
+                </div>
+                <div class="field">
+                  <input id="company" type="text" size="30" required />
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="address">Address:</label>
+                </div>
+                <div id="address" class="field">
+                  <textarea
+                    id="address"
+                    type="text"
+                    size="30"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="city">City:</label>
+                </div>
+                <div class="field">
+                  <input id="city" type="text" size="30" />
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="state">State / Province / Region: </label>
+                </div>
+                <div class="field">
+                  <select id="state">
+                    <option value="Select" selected>-Select-</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="California">California</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Oregon">Oregon</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="Country">Country:</label>
+                </div>
+                <div class="field">
+                  <select id="Country">
+                    <option value="Select" selected>-Select-</option>
+                    <option value="congo">Congo</option>
+                    <option value="ethiopia">Ethiopia</option>
+                    <option value="eritrea">Eritrea</option>
+                    <option value="uganda">Uganda</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="email">Email:</label>
+                </div>
+                <div class="field">
+                  <input id="email" type="text" size="30" required />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rightsideform">
+            <div class="p-20">
+              <p id="p3">Lunch</p>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="meal">Meal Preference:</label>
+                </div>
+                <div class="field">
+                  <select id="meal">
+                    <option value="non-veg">Non-Vegeterian</option>
+                    <option value="vegeterian">Vegeterian</option>
+                    <option value="vegan">Vegan</option>
+                  </select>
+                </div>
+              </div>
+
+              <p id="p4">Payment Details</p>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="payment">Payment Mode </label>
+                </div>
+                <div class="field">
+                  <input id="payment" type="checkbox" name="cash" checked />Cash
+                  <input id="payment" type="checkbox" name="cheque" />Cheque
+                  <input
+                    id="payment"
+                    type="checkbox"
+                    name="Demanddraft"
+                  />Demand Draft
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="dd">DD/Cheque No. </label>
+                </div>
+                <div class="field">
+                  <input id="dd" type="text" size="30" />
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="bankname">Drawn On (Bank Name) </label>
+                </div>
+                <div class="field">
+                  <input id="bankname" type="text" size="30" />
+                </div>
+              </div>
+
+              <div class="field-control">
+                <div class="label">
+                  <label for="payableat">Payable at </label>
+                </div>
+                <div class="field">
+                  <input id="payableat" type="text" size="30" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="formbuttons">
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

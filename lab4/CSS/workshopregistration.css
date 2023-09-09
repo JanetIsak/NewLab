@@ -1,0 +1,113 @@
+.globaldiv{
+  border: 2px solid rgb(131, 193, 193);
+  width: 1300px;
+  max-height: fit-content;
+}
+
+.header{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:rgb(131, 193, 193);
+  padding-left: 25px;
+  
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1{
+  padding-left: 40px;
+  padding-top: 3px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(131, 193, 193);
+  border: 1px rgb(131, 193, 193);
+}
+
+#p2{
+  text-decoration-line: underline;
+  font-size: larger;
+}
+
+#p3{
+  text-decoration-line: underline;
+  font-size: larger;
+}
+
+#p4{
+  text-decoration-line: underline;
+  font-size: larger;
+}
+
+.formdiv{
+  xpadding-left: 25px;
+  display: flexbox;
+  border: 10px;
+  
+}
+
+.col-form{}
+.col-form .leftsideform{
+  width: 48%;
+  float: left;
+}
+.col-form .rightsideform{
+  width: 48%;
+  float: right;
+}
+
+
+
+input[type="reset"]{
+  color: black;
+  background-color: rgb(131, 193, 193);
+}
+
+input[type="submit"]{
+  color: black;
+  background-color: rgb(131, 193, 193);
+}
+
+body{
+  margin: 10px;
+
+}
+
+html{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.p-20{
+  padding: 20px;
+}
+
+.fix{
+  overflow: hidden;
+  clear: both;
+}
+
+.field-control{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.field-control .label{
+  width: 40%;
+  float: left;
+}
+.field-control .field{
+  width: 60%;
+  float: left;
+}
+
+.formbuttons{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
